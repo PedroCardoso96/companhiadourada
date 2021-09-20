@@ -1,0 +1,119 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* VARIABLE */
+
+:root{
+    --text-font: 400 2.5rem 'Stick No Bills', sans-serif;
+    --h-font: 600 3.5rem 'Stick No Bills', sans-serif;
+    --letter-font: 400 2.5rem 'Birthstone', cursive;
+
+    --text-color: rgb(10, 20, 10);
+    --body-color: rgba(9, 97, 36, 0.4);
+
+    --header-height: 4.5rem;
+}
+
+/* BASE */
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body{
+    font: var(--text-font);
+    color: var(--text-color);
+    background: var(--body-color);
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* LAYOUT */
+
+.container{
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+/* HEADER */
+
+#header{
+    height: 6rem;
+    padding: 1rem;
+    width: 100%;
+    background: white;
+    position: fixed;
+}
+
+#header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle{
+    display: none;
+    visibility: hidden;
+}
+
+
+/* LOGO */
+
+.logo{
+    align-items: center;
+    justify-content: center;    
+    display: flex;
+    font: var(--h-font);
+    font-weight: 600;
+}
+
+.logo img{
+    height: 5rem;
+    width: 100%;
+}
+
+
+/* MENU */
+
+.menu{
+    font: var(--text-font);
+    font-weight: 400;
+}
+
+ul li{
+    margin-right: 2rem; 
+}
+
+ul li:last-child{
+    margin-right: 0;
+}
+
+/* HOME */
+
+#home{
+       
+}
