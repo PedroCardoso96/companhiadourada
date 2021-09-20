@@ -114,6 +114,31 @@ ul li:last-child{
 
 /* HOME */
 
+
 #home{
-       
+    height: 100vh;
 }
+#home img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%; 
+}
+
+/* ABOUT */
+
+#about{
+    margin-top: 2rem;    
+}
+
+.about{
+
+}
+
+.header{
+    font: var(--h-font);
+    font-weight: 600;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+
