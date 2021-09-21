@@ -4,12 +4,10 @@ window.addEventListener("scroll", function(){
 })
 
 
-$(document).ready(function(){
+$(window).ready(function(){
     $(".mostrar").hide();
     $(".ocultar").click(function()
     {
         $(this).next(".mostrar").slideToggle(600);
 });
 });
-
-
