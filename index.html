@@ -8,32 +8,36 @@
     <meta name="author" content="Pedro Cardoso">
     <link rel="shortcut icon" href="" type="image/x-icon">
 
+    <!-- Icons -->
+    <link rel="stylesheet" href="/assets/icons/style.css">
+    
     <!-- STYLE -->
     <link rel="stylesheet" href="style/index.css">
-    
+
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Stick+No+Bills:wght@400;600&display=swap" rel="stylesheet">
-
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&family=Stick+No+Bills:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Script jQuery -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
     <title>Cobras Fumantes</title>
 </head>
 <body>
 
-    <header id="header">
+    <header id="header" class="sticky">
         
         <nav class="container">
             
-            <a class="logo" href="/index.html">Cobras <img src="/images/logo.png" alt="Logo Cobras Fumantes"> Fumantes</a>
+            <a class="logo" href="/index.html">Cobras <img src="/assets/images/logo.png" alt="Logo Cobras Fumantes"> Fumantes</a>
 
             <div class="menu">
                 <ul class="flex">
                     <li><a href="#home">Início</a></li>
+                    <li><a href="#inspiration">Inspiração</a></li>
                     <li><a href="#about">Sobre</a></li>
-                    <li><a href="#historie">História</a></li>
                     <li><a href="#members">Membros</a></li>
                     <li><a href="#recruitment">Recrutamento</a></li>
                 </ul>
@@ -44,40 +48,115 @@
         </nav>
         
     </header>
-
-    <section id="home">
-        <img src="/images/banner.jpg" alt="Banner New Wolrd">
+    <a name="sobre" class="puxarconteudo"></a>
+    
+    <!-- Home -->
+    <section  id="home">
+        <img src="/assets/images/banner.jpg" alt="Banner New Wolrd">
     </section>
-    <div class="container">
+    <!-- Master-container -->
+
+    <div class="master-container">
         
-        <section id="about">
+        <!-- Inspiration -->
+        <div class="section" id="inspiration">
+            <div class="container">
+
+                <!-- Buttons -->
+                <div class='ocultar button'>
+                     Inspiração
+                </div>
+                <div class='mostrar button-show'>
+                    No ano de 1821, os rumores de que portugal iriam invadir o império brasileiro após a sua declaração de independência eram muito fortes <br><br>
+
+                    Desde o ano de 1275 havia diversos rumores de que a igreja católica estava enviando frotas maritimas para um local misterioso com promessas de encontrar um artefato "místico'' o Santo Graal, dando inicio a ordem fanática da Aliança, que não toleraria qualquer interrupção em seus planos, eliminando quem ficasse em seu caminho e matando em nome da fé... <br><br>
+                  
+                    O estado papal nao ligava para os assuntos geopoliticos referente a independência do Brasil, mas eles sabiam que essas terras eram ricas em recursos e abrangiam um grande território que por sua vez também guardavam segredos sobre uma civilização perdida...
+                    Visando esses pontos e fazendo diversos acordos, sobre a promessas de uma grande recompensas, a igreja declarou apoio a Portugal para uma possivel retaliação e retomar o território em nome da fé e de suas ambições...<br><br>
+                  
+                    O Imperador Dom Pedro II não acreditava no sobrenatural, mas o seu amigo e sacerdote estudante das artes místicas e ocultas, Padre Diogo Feijó (sacerdote católico e estadista brasileiro) estava fortemente convencido de que a igreja católica estava tramando algo contra o Imperio Brasileiro, e por ser um grande amigo de Dom Pedro II ele rejeitou as ordens da igreja que era manter segredo sobre tudo que acontecia no estado papal e quebrou o sigílo, contando para Dom Pedro II sobre uma misteriosa Ilha, que guardava segredos inimaginaveis, criaturas assombrosas e também contou sobre as inúmeras expedições enviadas pelo estado papal atraves dos anos para recuperar um "Artefato Místico" conhecido como o Santo Graal, no qual poderia mudar o curso da guerra em uma possível invasão do exército português aliado a Igreja.<br><br>
+                  
+                    Com a invasão eminente ao imperio brasileiro, Dom Pedro II sentiu-se encurralado sobre que ações tomar para manter a soberania do império brasileiro e sua idependência, caso fossem atacados. Aconselhado por seu amigo sacerdote Diogo Feijó, Dom Pedro II criou um plano para reverter a situação e se previnir a uma invasão que estaria por vir. Sem muitas opções e se recuperando do recente conflito com Paraguai, o imperador Dom Pedro II decidiu convocar seus melhores homens para uma expedição secreta para estas terras desconhecidas, com a missão de recuperar tal artefato em nome da soberania brasileira, para mudar o rumo da possível guerra e proteger seus cidadões.<br><br>
+                  
+                    A partir disso chegaram aos ouvidos de portugal e do estado papal que o Império Brasileiro estava enviando forças expedicionárias para as terras desconhecidas, Ambos
+                    souberam do objetivo de Dom Pedro II e viram que o melhor a se fazer era focar em recuperar o Santo Graal pois eles não poderiam deixar que o Brasil recuperasse o artefato e fossem subjulgados pelo império brasileiro... Antes de dar continuidade a invasão ao Brasil, o estado papal decidiu manter o foco nas expedições tendo como prioridade a recuperação do artefato.<br><br>
+                  
+                    Como forma de deboche e tentativa de desmoralizar as forças e os atos de Dom Pedro II para ganhar a guerra, alegaram que ele não teria tal coragem de arriscar vidas brasileiras em uma missão para recuperar um artefato "mistico" que ele nem se quer sabia se existia, pois para a igreja era interessante que a ideia de um artefato "místico" e com poderes desconhecidos fosse acobertada, acrescentaram ainda em seu discurso dizendo que era mais facil uma cobra fumar do que Dom Pedro II enviar uma força expedicionária para realizar tal missão...<br><br>
+                  
+                    Um ano depois, mesmo sobre os falsos rumores criados pelo estado papal para desmoralizar Dom Pedro II, o imperador brasileiro criou uma força expedicionária chamada Cobras Fumantes, nome esse que serviria para ironizar os os boatos inventados pela igreja a fim de prejudicar a expedição. Os melhores soldados do império foram escolhidos por Dom Pedro II em pessoa, encarregando-lhes de recuperar o artefato nem que essa fosse a ultima coisa que eles realizassem, dando carta branca para os líderes da expedição para realizarem o que fosse necessário para adquirir o artefato místico...
+                </div>
+
+                <div class="ocultar">
+                    Lore
+                </div>
+                <div class="mostrar">
+                    Ao ínicio da tarde de 14 de abril de 1945, 3 batalhões de infantaria pertecentes ao 11° regimento de infantaria, avançavam contra fortes posições defensivas alemãs encravadas no alto da cidade de montese, Itália, um desses batalhões era o de número 3, formados por diversos pelotões, cada um com uma função específica... Durante o avanço morro a cima, um desses pelotões foi encurralado, sendo atingido por incessante fogo de metralhadoras, ao mesmo tempo que era alvo de uma barragem de artilharia. Se os soldados se levantassem, seriam atingidos pelas metralhadoras, e caso eles continuassem deitados, seriam atingidos pelo fogo de artilharia, tendo como a única certeza uma sentença de morte. No entando 3 jovens se separaram de seu pelotão, ficando livre do fogo de artilharia. Nessa situação eles poderiam recuar mediante ao ocorrido com seus colegas de pelotão e solicitar ajuda, porém, sabiam que se recuassem a ajuda não chegaria a tempo, contrariando o mais primitivo sentimento humano, o instindo de aoto-preservação, os 3 soldados avançaram contornando o campo de batalha onde os seus companheiros estavam encurralados, e dirigiram-se diretamente de onde vinha os disparos e fogo de artilharia. Ao se aproximarem descobriram que estavam diante de toda uma infantaria alemã, sem pensar duas vezes, abriram fogo com tudo o que tinham, pois era a única forma de diminuirem a pressão sobre seus companheiros, usaram todas as suas granadas e descarregaram nos inimigos todas as suas munições, os alemães surpreendidos por aquele ataque inesperado, acreditaram que fosse toda uma companhia de infantaria brasileira "e tal era o poder do ataque", cancelaram a barragem de artilharia e desviaram o foco de suas metralhadoras para esses 3 jovens soldados. Quando a munição acabou, os nazista falaram para eles se renderem, os 3 soldados se calaram e, bravamente, sacaram suas baionetas e partiram para cima dos nazistas, porém foram rapidamente mortos pelo fogo inimigo. Ao vasculharem a zona, ficaram espantados em saber que não havia nenhuma infantaria brasileira, e sim apênas aqueles 3 soldados, que ganharam tempo para seus companheiros do pelotão, e simplesmente não podiam acreditar no ocorrido. O comandante alemão, impressionado com o feito um comandante alemão impressionado com o enorme sacrificio dos brasileiros, ordenou que eles fossem sepultados com cruzes cristãs com os dizeres em alemão "Três Heróis Brasileiros", sendo eles Arlindo Lúcio da Silva, 25 Anos. Geraldo Rogrigues de Souza, 26 Anos e Geraldo Baeta da Cruz 28 Anos.
+
+                    "Muitos voltaram para contarem suas histórias, e outros, morreram para fazê-las"
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="divider">
+                        
+        </div>
+
+        <!-- About -->
+        <section class="section" id="about">
+
             <header class="header">
-                <h2>Sobre nós</h2>
+                <h2 class="tittle">Sobre nós</h2>
             </header>
+            
             <div class="container">
                 <div class="about">
-
-                    <img src="/images/lore_oficial_da_guilda.jpg" alt="">
-
                     <p>
-                        Nossa guild se chama Cobras Fumantes, seremos da facção dos saqueadores.
+                        Nossa guild se chama Cobras Fumantes, seremos da facção dos saqueadores.<br>
+                        Não iremos focar em dominar um território no inicio do jogo <br>
+                        Não iremos sair recrutando qualquer um <br>
+                        Vamos trabalhar com o pessoal que temos aqui<br>
+                        O pessoal que eu sei que vai jogar pra valer<br>
+                        O pessoal que esta na guilda desde o inicio, Pelo que vi no alfa não adianta ter muitas pessoas se nem a metade deles estão ativas<br>
+                        A ideia de jogo que tenho é de sermos uma guilda  "Pequena" e com um  pessoal consistente,
+                        Um pessoal que eu sei que vai jogar<br>
+                        Com o passar do tempo iremos almejar um território e dessa vez não iremos comprar, e sim dominar um que ao meu ver não será muito difícil a julgar pelo que eu vi no alfa e beta<br>
+                        Para uma guilda que suporta 100 pessoas acho que teremos poucos, mas isso não será problema Temos varias guildas aliadas e muitas delas vão passar dos 100 jogadores, conversei com alguns aliados e chegamos a um ponto de que eles iram passar alguns jogadores da guilda deles para a nossa, jogadores que tbm sabem que vão ficar focados no jogo, assim não arriscaremos pegar uma pessoa que esta só testando o jogo caso a gente faça um recrutamento.
                     </p>
                 </div>
             </div>
         </section>
 
-        <section id="members">
-            <header></header>
+
+        <!-- Members -->
+        <section class="section" id="members">
+            <header class="header">
+                <h2 class="tittle">Membros</h2>
+            </header>
         </section>
 
-        <section id="recruitmant">
-            <header></header>
+        <!-- Recruitment -->
+        <section class="section" id="recruitment">
+            <header class="header">
+                <h2 class="tittle">
+                    Recrutamento
+                </h2> 
+            </header>
         </section>
-    </div>
+    
+</div>
 
+
+    <!-- Footer -->
     <footer id="footer">
 
     </footer>
+
+    <div class="to-top icon-arrow-up"></div>
+
+    <!-- Script -->
+    <script src="/script.js"></script>
     
 </body>
 </html>

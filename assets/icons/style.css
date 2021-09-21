@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?xqkdqu');
+  src:  url('fonts/icomoon.eot?xqkdqu#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xqkdqu') format('truetype'),
+    url('fonts/icomoon.woff?xqkdqu') format('woff'),
+    url('fonts/icomoon.svg?xqkdqu#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-discord:before {
+  content: "\e901";
+  color: #7289da;
+}
+.icon-close:before {
+  content: "\e900";
+}
+.icon-arrow-up:before {
+  content: "\e90f";
+}
+.icon-facebook:before {
+  content: "\e906";
+}
+.icon-youtube:before {
+  content: "\e908";
+}
+.icon-menu:before {
+  content: "\e90a";
+}
+.icon-whatsapp:before {
+  content: "\e90d";
+}

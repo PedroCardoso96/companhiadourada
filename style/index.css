@@ -21,12 +21,16 @@ img{
 /* VARIABLE */
 
 :root{
+
     --text-font: 400 2.5rem 'Stick No Bills', sans-serif;
     --h-font: 600 3.5rem 'Stick No Bills', sans-serif;
-    --letter-font: 400 2.5rem 'Birthstone', cursive;
+    --letter-font: 400 3rem 'IM Fell DW Pica', serif;
 
     --text-color: rgb(10, 20, 10);
-    --body-color: rgba(9, 97, 36, 0.4);
+    --body-color: rgb(1, 10, 1);
+    --base-color:  rgb(235, 255, 240);
+    --button: rgb(212, 253, 117);
+    --show-content: rebg(100, 100, 100);
 
     --header-height: 4.5rem;
 }
@@ -48,9 +52,17 @@ body{
 
 /* LAYOUT */
 
+.master-container{
+    background: var(--base-color);
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+
+}
+
 .container{
     margin-left: 4.5rem;
     margin-right: 4.5rem;
+
 }
 
 .flex{
@@ -58,15 +70,42 @@ body{
     align-items: center;
 }
 
+.section{
+    
+    text-align: center;
+}
+
+.tittle{
+    font: var(--text-font);
+    font-size: 4rem;
+    font-weight: 600;
+
+    margin: 3rem 0;
+}
+
+.divider{
+    margin: 0 auto;
+    width: 90%;
+    height: 0.1rem;
+    background: black;
+}
+
 
 /* HEADER */
 
+.toggle{
+    display: none;
+    visibility: hidden;
+}
+
 #header{
-    height: 6rem;
-    padding: 1rem;
-    width: 100%;
-    background: white;
     position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 1000;
 }
 
 #header .container{
@@ -75,10 +114,60 @@ body{
     justify-content: space-between;
 }
 
-.toggle{
-    display: none;
-    visibility: hidden;
+#header.sticky{
+    padding: 5px 100px;
+    background: #fff;
+    
 }
+
+#header .logo{
+    position: relative;
+    font-weight: 600;
+    font: var(--h-font);
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.6s;
+}
+
+#header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header ul li {
+    position: relative;
+    list-style: none;
+}
+
+#header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+#header ul li:hover {
+    background-color: #ccc;
+    transition: 0.8s;
+    border-radius: 2em;
+}
+
+
+#header.sticky .logo, #header.sticky ul li a{
+    color: #000;
+
+}
+
+
+.puxarconteudo{
+    transition: 3s;
+}
+
 
 
 /* LOGO */
@@ -121,24 +210,70 @@ ul li:last-child{
 #home img{
     object-fit: cover;
     height: 100%;
-    width: 100%; 
+    width: 100%;
+    -webkit-box-shadow: 0px 15px 30px 0px rgba(0,0,0,0.4); 
+    box-shadow: 0px 15px 30px 0px rgba(0,0,0,0.4);
 }
+
+
+/* Inpiration */
+
+#inspiration{
+    padding: 8rem 7rem;
+}
+
+.ocultar {
+    background: var(--button);
+    cursor:pointer;
+    font-weight:bold;
+    font-size: 6rem; /* edite tamanho da fonte */
+    color: black;  /* edite cor do link */
+    padding:1rem;
+    margin:0 auto;
+    border: 1px solid rgb(1, 10, 1);
+    border-radius: 1rem;
+}
+.mostrar {
+    padding: 4rem 0;
+    font: var(--letter-font);
+    background: var(--show-content);
+}
+
+.button{
+    margin-bottom: 5rem;
+    
+}
+
+.button-show{
+    margin-top: -5rem;
+}
+
+.ocultar:hover{
+    filter: brightness(1.2);
+}
+
 
 /* ABOUT */
 
 #about{
-    margin-top: 2rem;    
+        
 }
 
 .about{
 
 }
 
-.header{
-    font: var(--h-font);
-    font-weight: 600;
-    margin-top: 5rem;
-    text-align: center;
+
+
+
+/* To-top */
+
+.to-top{
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    right: 0;
+    margin: 5rem;
+    font-size: 6rem;
+    color: black;
 }
-
-
