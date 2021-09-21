@@ -1,2 +1,2 @@
 # cobras-fumantes
-Site da guild Cobras Fumantes
+Site da guild de New World - Cobras Fumantes
