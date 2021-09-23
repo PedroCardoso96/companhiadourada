@@ -29,8 +29,8 @@ img{
     --text-color: rgb(10, 20, 10);
     --body-color: rgb(1, 10, 1);
     --base-color:  rgb(235, 255, 240);
-    --button: rgb(212, 253, 117);
-    --show-content: rebg(100, 100, 100);
+    --button: rgb(19, 187, 27);
+
 
     --header-height: 4.5rem;
 }
@@ -84,10 +84,11 @@ body{
 }
 
 .divider{
-    margin: 0 auto;
+    margin: 3rem auto;
     width: 90%;
     height: 0.1rem;
     background: black;
+
 }
 
 
@@ -233,9 +234,9 @@ ul li:last-child{
     /* border: 1px solid rgb(1, 10, 1); */
     border-radius: 1rem;
 
-    box-shadow:inset 0px 1px 3px 0px #91b8b3;
-	background:linear-gradient(to bottom, #768d7a 5%, #74866f 100%);
-	background-color:#768d7d;
+    /* box-shadow:inset 0px 1px 3px 0px #91b8b3; */
+	/* background:linear-gradient(to bottom, #768d7a 5%, #74866f 100%); */
+	/* background-color:#768d7d; */
 	border:1px solid #7ec27a;
 	text-shadow:0px -1px 0px #2b665e;
 
@@ -264,17 +265,81 @@ ul li:last-child{
 /* ABOUT */
 
 #about{
-    padding-top: 4rem;
+    padding: 6rem 7rem;
 }
 
 .about{
     text-align: center;
     font: var(--letter-font);
+    padding: 0 3rem;
 }
 
 .about p{
     line-height: 4rem;
 }
+
+/* Members */
+
+#members{
+    padding: 5rem 7rem;
+}
+
+
+.cards{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4rem 0;
+}
+
+.cards .card{
+    position: relative;
+    width: 25rem;
+    height: 50rem;
+    background: var(--base-color);
+    padding: 3rem;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 202px rgba(0, 0, 0, .5);
+
+}
+
+
+.cards .card .img-bx{
+    position: relative;
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0,0,0,0.2);
+    
+}
+
+.cards .card .img-bx img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.cards .card .content{
+    position: relative;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    color: #111;
+    transition: 0.3s ease-in-out;
+}
+
+
+.cards .card .content p{
+    margin-top: 1rem;
+    font: var(--letter-font);
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;  
+}
+
 
 /* To-top */
 
