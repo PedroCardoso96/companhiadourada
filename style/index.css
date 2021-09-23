@@ -60,8 +60,8 @@ body{
 }
 
 .container{
-    margin-left: 4.5rem;
-    margin-right: 4.5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
 
 }
 
@@ -108,7 +108,7 @@ body{
     z-index: 1000;
 }
 
-#header .container{
+#header .navigation{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -264,11 +264,16 @@ ul li:last-child{
 /* ABOUT */
 
 #about{
-        
+    padding-top: 4rem;
 }
 
 .about{
+    text-align: center;
+    font: var(--letter-font);
+}
 
+.about p{
+    line-height: 4rem;
 }
 
 /* To-top */
