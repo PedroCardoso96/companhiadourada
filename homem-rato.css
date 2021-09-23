@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+    
+}
+
+div{
+    margin: 0 auto;
+    
+}
+
+.text{
+    position: absolute;
+    top: 0;
+}
+
+.olhos{
+    position: absolute;
+    top: 0;
+    z-index: -1000;
+    opacity: 0.2;
+}
+
+.olhos img{
+    width: 100vw;
+    height: 100vh;
+}
+
+.car{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: .5;
+}
