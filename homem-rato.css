@@ -1,10 +1,3 @@
-body{
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    
-    
-}
 
 div{
     margin: 0 auto;
@@ -14,23 +7,46 @@ div{
 .text{
     position: absolute;
     top: 0;
+    width: 150vw;
 }
 
 .olhos{
     position: absolute;
     top: 0;
+    width: 100%;
     z-index: -1000;
     opacity: 0.2;
+    
 }
 
 .olhos img{
     width: 100vw;
     height: 100vh;
+
 }
 
 .car{
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: -30px;
+    right: -100px;
+    
     opacity: .5;
+}
+
+h3{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.eterno{
+    margin-left: 100vw;
+    width: 500rem;
+    height: 100vh;
+    z-index: -1001;
+    background-image: url(assets/images/hi.jpg);
+    background-repeat: repeat-x;
+    opacity: .2;
+
+    
 }
